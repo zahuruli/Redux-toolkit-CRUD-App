@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+}
+
+nav {
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.NavLink {
+    color: black;
+    margin: 5px 25px;
+}
+.NavLink:hover {
+    color: rgb(39, 63, 109);
+    margin: 5px 25px;
+}
+
+.active {
+    color: rgb(211, 4, 4);
+    font-size: 1.1rem;
+}
